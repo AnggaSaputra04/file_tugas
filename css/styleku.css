@@ -1,0 +1,397 @@
+body#background{
+    background-image: linear-gradient(to right, #DDDDDD, #EEEEEE, #B7B78A, #658864);
+   /* background-color:#2B3467;
+    background-image:url('../img/iklan.PNG');*/
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 4cm 0cm 2cm; /* searah jarum jam atas, kanan, bawat, atas*/
+}
+
+/*---------header---------*/
+body.body1{
+    background-image:url('../img/bulan.avif');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 0cm 0cm 0cm;
+}
+
+form{
+    text-align: left;
+    width: 500px;
+    margin: 10px 10px;
+    padding: 1px;
+}
+.search{
+    text-align: left;
+    padding: 8px 8px;
+    background: white;
+    border: 0px solid;
+}
+.search:link, .search :visited{
+    text-decoration:none;
+    border:0px solid #2B3467;
+    padding: 5px;
+    background-color:#BAD7E9;
+    margin: 0px 5px;
+    
+}
+.search:hover{
+    background-color: red;
+    color: pink;
+}
+.button{
+    text-align: right;
+    position: relative;
+    padding: 8px 10px;
+    left: 0px;
+    border: 0px solid black;
+    background-color: #BAD7E9 ;
+    color: antiquewhite;
+}
+.button:link .button :visited{
+    text-decoration:none;
+    border:0px solid #2B3467;
+    padding: 5px;
+    background-color:#BAD7E9;
+    margin: 0px 5px;
+}    
+.button:hover{
+    background-color: red;
+    color: pink;
+}
+
+/*---menu---*/
+body.body2{
+    background-image:url('../img/bulan.avif');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 0cm 0cm 0cm;
+    padding: 2px;  
+}
+div.menu1, a.m1{
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+/*div.menu1 a.m1:link, a.m1:visited{
+    text-decoration:none;
+    border:2px solid #2B3467;
+    padding: 2px;
+    background-color:rebeccapurple;
+    margin: 0px 0px;    
+}*/
+a.m1:hover{
+    text-decoration:none;
+    text-decoration: none;
+    border:2px solid white;
+    padding:5px;
+    background-color:blueviolet;
+    margin: 0px 5px;
+}
+h1{
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 3px orange;
+
+    
+}
+hr{
+    border: red dashed 2px;
+    /*padding:5px;*/
+    margin: 20px 0px;
+}
+p, li{
+    text-align: justify;
+    text-indent: 0,5cm;
+    padding: 10px 20 px ;
+    color: white;
+    line-height: 1cm;
+    word-spacing: 5px;
+    font-size: 14px;
+}
+
+p.p1{
+	text-align:justify;
+	text-indent:0.5cm;
+	padding:20px;
+	color:white
+	;
+	line-height:0.5cm;
+	word-spacing:5px;
+	font-size:14pt;
+}
+
+fieldset,img{/* grouping*/
+    border:greenyellow 5px outset;
+    border-radius: 40px;
+    padding: 10px;
+    background-color:#2B3467;
+    color:maroon;
+
+}
+legend{
+    border:greenyellow 5px outset;
+    padding: 10px;
+    background-color:#2B3467;
+    color:white;
+}
+*{
+    font-family: cambria, calibri, consolas;
+}
+/*-----pseudo class-----*/
+div#menu a:link, a:visited{
+    text-decoration:none;
+    border:4px solid #2B3467;
+    padding: 5px;
+    background-color:#BAD7E9;
+    margin: 0px 5px;
+    
+}
+div#menu a:hover{
+    text-align: center;
+    text-decoration: none;
+    border:0px solid green;
+    padding:0px;
+    background-color:yellow;
+    margin: 0px 0px 0px 0px ;
+}
+/*div#menu*/ a:active{
+    text-decoration: none;
+    border:1px solid green;
+    padding:1px;
+    background-color: black;
+    margin: 0px 5px;
+}
+
+div#menu{
+	text-align: center;
+}
+div#menu a:hover{
+    text-decoration: none;
+    border:2px solid yellow;
+    padding:5px;
+    background-color:blueviolet;
+    margin: 0px 5px;
+}
+
+/*-------------sidebar-------------*/
+body.sidebar1{
+    background-color:lavender;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 0cm 0cm 0cm 0cm; /* searah jarum jam atas, kanan, bawat, atas*/
+}
+.fieldset2 {/* grouping*/
+    border: blueviolet 5px outset;
+    padding: 1px;
+    background-color:#2B3467;
+    color:white;
+}
+legend.legend1{
+    border:brown 5px outset;
+    padding: 10px;
+    background-color:#2B3467;
+    color:white;
+}
+ul.ul1,li.li1,a.a1{
+    text-decoration: none;
+    color: orange;
+}
+a.a1:visited{
+        text-decoration:none;
+        border:4px solid #2B3467;
+        padding: 5px;
+        background-color:#BAD7E9;
+        margin: 0px 5px;   
+}
+a.a1:hover{
+    text-decoration: none;
+    border:2px solid white;
+    padding:5px;
+    background-color:yellow;
+    margin: 0px 5px;
+	
+}
+
+
+/*-----------Sidebarkanan--------------*/
+body.sidebarkanan{
+    background-color:lavender;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin: 1cm 0cm 0cm 0cm; 
+    padding: 0cm 0cm 0cm 0cm;/* searah jarum jam atas, kanan, bawat, atas*/
+}
+
+/*-------------icon----------------*/
+#atas, #bawah{
+    text-align: left;
+}
+
+p.panah_atas a:link, a:visited{
+    text-decoration:none;
+    font-size: 20pt;
+    color: orange;
+    font-weight: bolder;
+}
+p.panah_bawah  a:link, a:visited{
+    text-decoration:none;
+    font-size: 20pt;
+    color: orange;
+    font-weight: bolder;
+}
+p.panah_atas a:hover{
+    text-decoration:none;
+    font-size: 50pt;
+    color: orange;
+    font-weight: bolder;
+}
+p.panah_bawah  a:hover{
+    text-decoration:none;
+    font-size: 50pt;
+    color: orange;
+    font-weight: bolder;
+}
+p.p2{
+    text-align: justify;
+    text-indent: 0cm;
+    color: red;
+
+}
+/*------------- pseudo element -----------*/
+p.p2::first-letter{
+    font-size: 50pt;
+    font-family: consolas,calbiri, cambria;
+    float: left;
+    padding-right: 10px;
+}
+p.p2::first-line{
+    font-family: consolas,calbiri, cambria;
+    background-color: white;
+    font-style: italic;
+}
+
+
+p.p3{
+    text-align: justify;
+    text-indent: 0cm;
+    color:white;
+
+}
+p.p3::first-letter{
+    font-size: 50pt;
+    font-family: consolas,calbiri, cambria;
+    float: right;
+    padding-right: 10px;
+}
+p.p3::first-line{
+    font-family: consolas,calbiri, cambria;
+    background-color: rebeccapurple;
+    font-style: italic;
+}
+center.footer{
+    padding: 6px 6px;  
+    margin: 0cm 0cm 0cm 0cm;
+}
+div#footer,a.f1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+body.contact{
+    background-color: #3F3B6C;
+    color: white;
+}
+div.contact{
+    padding: 1px;
+    margin: 1cm;
+}
+textarea.area{
+    background-color: greenyellow;
+}
+input.input1{
+    background-color: burlywood;
+    padding: 0px ;
+    margin: 28px;
+}
+input.input2{
+    background-color: burlywood;
+    padding: 0px ;
+    margin: 4px;
+}
+input.submit:hover{
+    text-decoration: none;
+    border:2px solid white;
+    padding:5px;
+    background-color:mediumaquamarine;
+    margin: 0px 5px;
+
+
+}
+input.batal:hover{
+    text-decoration: none;
+    border:2px solid white;
+    padding:5px;
+    background-color:mediumturquoise;
+    margin: 0px 5px;
+}
+
+ol{
+    list-style-image:url('../img/karakter.png');
+}
+ul{
+    list-style-image:url('/img/polis.png .PNG');
+}
+ul.makanan{
+    list-style-image:url('../img/star.png');
+}
+ul.minuman{
+    list-style-image:url('../img/bird.png');
+}
+/*------------web font-------------*/
+@font-face{
+    font-family: myFirstFont;
+    src:url('../font/Ananda.ttf');
+}
+* {
+    font-family: myFirstFont;
+ }
+/*------------- pseudo element -----------*/
+/*p.p2::first-letter{
+    font-size: 50pt;
+    font-family: consolas,calbiri, cambria;
+    float: left;
+    padding-right: 10px;
+}
+p.p2::first-line{
+    font-family: consolas,calbiri, cambria;
+    background-color: white;
+    font-style: italic;
+}
+
+
+
+/*p{
+ color: white;   
+}
+label{
+    color: white;
+}
+input{
+    color: white;
+}
+select{
+    color: white;
+}
+fieldset{
+    color: white;
+}*/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> Latihan Form</title>
+<link rel="stylesheet" type="text/css" href="css/styleku.css"/>
+    </head>
+    <body class="contact" bgcolor="Gainsboro">
+        <table align="center" border="1" cellspacing="0" cellpadding="10"
+		       width="40%">
+<div class="contact">
+        <form>
+            <label>Nama</label>&nbsp; 
+            <input class="input1" type="text"= nama/><br/>
+            <label>Password</label>&nbsp;
+            <input class="input2" type="password"= name="password" placeholder="Isilah Password "/><br/>
+            <label>Gender:</label>&nbsp;
+            <input type="radio"= name="gender"value="L"/>&nbsp; Laki-Laki
+            <input type="radio"= name="gender"value="P"/>&nbsp; Perempuan &nbsp;  <br/>
+            <label>Hobby:</label>&nbsp; <br/>
+            <input color="white" type="checkbox"= name="hobby"value="Olahraga"/>&nbsp; Olahraga <br/>
+            <input type="checkbox"= name="hobby"value="Membaca" />&nbsp; Membaca <br/><!--checked membuat centang-->
+            <input type="checkbox"= name="hobby"value="Menulis" />&nbsp; Menulis <br/>
+            <input type="checkbox"= name="hobby"value="Memasak"/>&nbsp; Memasak <br/>
+            <label>Pendidikan:</label>&nbsp;
+            <select name="pendidikan">
+                <option value="SMA">SMA</option>
+                <option value="D3">D3</option>
+                <option value="S1" >S1</option><!-- selected memilih opsi-->
+                <option value="S2">S2</option>
+            </select><br/>
+            <label>Alamat Lengkap:</label>&nbsp;
+            <textarea class="area" noresize="no" name="alamatLengkap" cols="100" rows="10" ></textarea>
+            <hr/>
+            <input class="submit" type="submit" name="proses" value="Simpan"/>&nbsp;
+            <input class="batal" type="reset" name="unproses" value="Batal"/> <!--&#x1F927; simbol namabah Spasi-->
+
+
+
+        </form>
+    </div>
+        </table>
+    </body>
+</html>
